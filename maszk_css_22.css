@@ -1,0 +1,80 @@
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+#gruby_Maszk {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#dlawszyskich{
+    color: yellow;
+    font-size: 15pt;
+    font-family: Arial;
+}
+
+#dlawszyskich_div {
+    color: pink;
+    font-size: 10pt;
+    font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+<head>
+     <meta charset="UTF-8">
+     <title> Maszk</title>
+     <link rel="stylesheet" type="text/css" href="maszk_css_22.css">
+     </head>
+<p>
+    Maszk <br>
+ Algorytmy to sekwencje instrukcji służące do rozwiązywania problemów.<br>
+ Ich efektywność mierzy się złożonością czasową i pamięciową. <br>
+ Struktury danych, takie jak listy, stosy czy drzewa,<br>
+ pozwalają na efektywne przechowywanie i przetwarzanie informacji.
+</p>
+
+<p id="gruby_Maszk">
+    Maszk <br>
+  Programowanie to proces tworzenia kodu, <br>
+  który komputer może wykonać. Istnieje wiele języków programowania,<br>
+  takich jak Python, Java czy C++, które różnią się składnią i zastosowaniami.<br>
+  Każdy język ma swoje mocne strony – na przykład Python jest popularny w analizie danych,<br>
+  a C++ w aplikacjach wydajnościowych.
+</p>
+
+<h1 id="dlawszyskich">
+    Maszk <br>
+  Sieci komputerowe umożliwiają komunikację między urządzeniami.<br>
+  Najpopularniejszą siecią jest internet, który działa na protokole TCP/IP. <br>
+  W sieciach ważne są zabezpieczenia, takie jak firewalle i szyfrowanie,<br>
+  które chronią dane przed atakami hakerów.
+</h1>
+
+<div id="dlawszyskich_div">
+    Maszk <br>
+	W dobie cyfryzacji cyberbezpieczeństwo odgrywa kluczową rolę. <br>
+	Obejmuje ono zabezpieczanie systemów przed wirusami,<br>
+	phishingiem i innymi zagrożeniami. Użytkownicy powinni stosować silne hasła, <br>
+	uwierzytelnianie wieloskładnikowe oraz regularnie aktualizować oprogramowanie,<br>
+	aby minimalizować ryzyko ataków.
+</div>
+
+
+ 
+
+
+
+    <body>
+     </body>-
+
