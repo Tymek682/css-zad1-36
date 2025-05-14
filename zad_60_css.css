@@ -1,0 +1,36 @@
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="Maszk_z60.css">
+    </head>
+    <body>
+        <div id="blok_Maszk_1">
+            blok1 Tymoteusz Maszk
+        </div>
+        <br>
+        <div id="blok_Maszk_2">
+            blok2 
+        </div>
+        <br>
+        <div id="blok_Maszk_3">
+            blok3 
+        </div>
+    </body>
+
+div {
+    width: 618px;
+    background-color: green;
+    font-size: 19mm;
+}
+
+#blok_Maszk_1:hover {
+    background-color: blue;
+}
+
+#blok_Maszk_2 {
+    background-color: silver;
+}
+
+#blok_Maszk_3 {
+    background-color: #03fc24;
+}

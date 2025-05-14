@@ -1,0 +1,22 @@
+
+
+
+
+</textarea><br>Plik *css<br>
+<textarea rows="15" cols="35">
+* {
+ font-size: 36pt;
+ background-color: yellow;   
+}
+
+p.klasa_nieuniwersalna_Maszk {
+    font-size: 30pt;
+    color: purple;
+}
+
+.klasa_nieuniwersalna_Maszk {
+    font-size: 28pt;
+    color: green;
+}
+</textarea>
+</center>
