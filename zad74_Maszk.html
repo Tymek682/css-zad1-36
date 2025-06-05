@@ -1,0 +1,130 @@
+<html>
+<head>
+<style>
+
+td{
+border: 1px solid black;
+}
+
+</style>
+<head>
+<body>
+<table>
+   <tr>
+        <td colspan="2" ><h2>Kolor Tła<h2></td> <td><p> Jednozadaniowy opis: <p><br>
+	<p>selektor {background-color: kolor;}</p><br>
+	<p>przyklad {background-color: black;}</p>
+
+</td>
+   </tr>
+   <tr>
+      <td colspan="2" ><h2> Tło Obrazkowe </h2></td> <br>
+	<td><p>selektor {background-image: url(adres);}</p><br>
+	<p>background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");</p></td> 
+   </tr>
+   <tr>
+      <td colspan="2"><h2>Powtarzanie  tła</h2></td>
+ <td>
+<p>Jednozdaniowy opis:</p><br>
+<p>selektor {background-repeat: powtarzanie;}</p><br>
+<p>Parametry:</p> <br>
+"repeat" - jednocześnie w pionie i poziomie - domyślnie<br>
+ "repeat-x" - w poziomie<br>
+ "repeat-y" - w pionie<br>
+ "no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu</p>
+</td> 
+   </tr>
+ <tr>
+      <td colspan="2"><h2>Pozycja Tła</h2></td>
+ <td>
+<p>Jednozdaniowy opis:</p><br>
+<p>selektor {{background-position: pozycja;}</p><br>
+<p>Parametry: <br>
+<h2>pozycja jedna wartość:</h2>
+"center" - obrazek na środku (w centrum)<br>
+ "left" - obrazek po lewej<br>
+ "right" - obrazek po prawej<br>
+ "top" - obrazek na górze<br>
+ "bottom" - obrazek na dole<br>
+ jednostki miary - odległość od lewej<br> 
+krawędzi<br>
+ dwie wartości (oddzielone spacją):<br>
+ "left top" - lewy-górny róg<br>
+ "left bottom" - lewy-dolny róg<br>
+ "right top" - prawy-górny róg<br>
+ "right bottom" - prawy-dolny róg<br>
+ dwie jednostki miary - pierwsza z nich<br> 
+oznacza odległość od lewej krawędzi, a <br>
+druga - od górnej<br>
+<h2>jednostki miary:</h2><br>
+piksele - px<br>
+ punkty edytorskie - pt<br>
+ wysokość litery "x" - ex<br>
+ wysokość aktualnej czcionki - em<br>
+ centymetry lub milimetry - cm, mm<br>
+ części dziesiętne centymetra pisane z <br>
+kropką np.: 0.5cm<br>
+ procent wielkości nadrzędnej - %<br>
+ cale - in (1in=2.54cm)<br>
+
+
+
+
+</td> 
+   </tr>
+<tr>
+        <td colspan="2" ><h2>zaczepianie tła<h2></td> <td><p> Jednozadaniowy opis: <p><br>
+	<p>selektor {background-attachment: zaczepienie;}</p><br>
+	<p>przyklad {background-attachment: scroll;}</p>
+	<p>Parametry:<br>
+	"scroll" - przewijanie tła (domyślnie)<br>
+	"fixed" - tło nieruchome
+</p>
+
+</td>
+   </tr>
+<tr>
+        <td colspan="2" ><h2>zaczepianie tła<h2></td> <td><p> Jednozadaniowy opis: <p><br>
+	
+	<p>przyklad: selektor {background: 1;}
+</p>
+
+</td>
+   </tr>
+<tr>
+        <td colspan="2" ><h2>gradient liniowy<h2></td> <td><p> Jednozadaniowy opis: <p><br>
+	<p>selektor {background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...)}</p><br>
+	<p>przyklad {background: linear-gradient(to bottom, bloack 0%, white 100%)}</p>
+	<p>Parametry:<br>
+	o top - przejście kolorów nastąpi pionowo z dołu do góry (odpowiednik 0deg)<br>
+ 	to right top - ukośnie z lewego-dolnego do prawego-górnego narożnika<br>
+ 	to right - poziomo z lewej do prawej strony (odpowiednik 90deg)<br>
+	 to right bottom - ukośnie z lewego-górnego do prawego-dolnego narożnika<br>
+	 to bottom - pionowo z górny do dołu (odpowiednik 180deg - domyślnie)<br>
+	 to left bottom - ukośnie z prawego-górnego do lewego-dolnego narożnika<br>
+	 to left - poziomo z prawej do lewej strony (odpowiednik 270deg)<br>
+ 	to left top - ukośnie z prawego-dolnego do lewego-górnego narożnika<br>
+	
+</p>
+
+</td>
+   </tr>
+<tr>
+        <td colspan="2" ><h2>Gradient promienisty<h2></td> <td><p> Jednozadaniowy opis: <p><br>
+	<p>selektor {background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 odległość2...)}</p><br>
+	<p>przyklad {background: radial-gradient(circle 2px at closest-side, pink 10%, red 90%)}</p>
+	<p>Parametry:<br>
+	losest-side - gradient będzie się rozchodził do najbliższej krawędzi elementu<br>
+	 farthest-side - do najdalszej krawędzi<br>
+	 closest-corner - do najbliższego narożnika<br>
+	 farthest-corner - do najdalszego narożnika (domyślnie)<br>
+	 promień - podany za pomocą jednostek długości lub procentowo<br>
+	 poziom pion - poziomy i pionowy promień elipsy, określony za pomocą jednostek<br> 
+	długości lub procentowo
+</p>
+
+</td>
+   </tr>
+</table>
+</body>
+</html>

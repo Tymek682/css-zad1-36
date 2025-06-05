@@ -1,0 +1,28 @@
+
+<head>
+<style>
+ table {
+ border: 4px black solid;
+ color: blue;
+ font-size: 13px;
+ 
+ }
+ td{
+ border: 3px red solid;
+ }
+ </style>
+
+
+</head>
+<center>
+<body>
+<table>
+   <tr>
+        <td colspan="2" ><h2>Komórka1-Maszk 1P<h2></td><td><h2>Komórka2-Maszk 1P<h2> </td>
+   </tr>
+   <tr>
+        <td colspan="2" ><h2>Komórka3-Maszk 1P<h2></td><td><h2>Komórka4-Maszk 1P<h2> </td>
+   </tr>
+   
+</table>
+</body>
