@@ -1,0 +1,53 @@
+
+<head>
+    <title>maszk</title>
+    <meta charset="UTF-8"/>
+    <style>
+        body {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        p#zero_maszk {
+            margin: 0;
+            padding: 0;
+            background-color: palevioletred;
+            background-image: url("logozse.png");
+            background-repeat: repeat-x;
+            font-size: 35px;
+            font-family: Arial;
+            color: red;
+        }
+        p#jeden_maszk {
+            margin: 0;
+            padding: 0;
+            background-color: sandybrown;
+            background-image: url("logozse.png");
+            background-repeat: no-repeat;
+            background-position: top right;
+            
+            font-size: 100px;
+            font-family: Arial;
+            color: blue;
+        }
+        p#dwa_maszk {
+            margin: 0;
+            padding: 0;
+            background-color: lightgreen;
+            background-image: url("logozse.png");
+            background-repeat: repeat-x;
+            background-position: bottom left;
+            font-size: 30px;
+            font-family: Arial;
+            color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <p id="zero_maszk">obraz powtarzany w kierunku poziomym obraz powtarzany w kierunku poziomym obraz powtarzany w kierunku poziomym</p>
+    <p id="jeden_maszk">obraz w górnym<br>prawym rogu tła</p>
+    <p id="dwa_maszk">obraz w dolnym lewym rogu obraz w dolnym lewym rogu obraz w dolnym lewym rogu obraz w dolnym lewym rogu obraz w dolnym lewym rogu obraz w dolnym lewym rogu</p>
+</body>
+
+
+

@@ -1,0 +1,35 @@
+
+
+<head>
+</head>
+<body>
+<style>
+div 
+{
+background-color: #ECEC85;
+border: 5px black solid;
+color: red;
+font-size: 42px;
+width: 900px;
+height: 150px;
+}
+table {
+border: 1px black solid;
+}
+</style>
+<table>
+    <tr>
+<th><div style="background-image:url(TM_maszk.png)"> powtarzanie grafiki dla calego obszaru </div></th>
+</tr>
+<tr>
+<th><div style="background:url(TM_maszk.png);background-repeat:repeat-y;background-color:#ffff99;"> powtarzanie w pionie</div></th>
+</tr>
+</table>
+<table>
+<tr>
+<th><div style="background:url(TM_maszk.png);background-repeat:repeat-x;background-color:#ffff99;"> powtarzanie w poziomie</div></th>
+</tr>
+<tr>
+<th><div style="background:url(TM_maszk.png);background-repeat:no-repeat;background-size:400px 120px;background-color:#ffff99;background-position:center;">grafiki centrowanej o zadanej wilkosci</div></th>
+</tr>
+</body>

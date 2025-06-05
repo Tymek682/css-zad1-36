@@ -1,0 +1,32 @@
+
+<head>
+<style>
+ table {
+ border: 4px black solid;
+ color: blue;
+ font-size: 13px;
+ 
+ }
+ td{
+ border: 3px red solid;
+ 
+ }
+ 
+ 
+
+ </style>
+
+
+</head>
+<center>
+<body>
+<table>
+   <tr>
+        <td style="background-color:#800000;" colspan="2" ><h2>Komórka1-Maszk 1P<h2></td><td style="background-color:#FFFF00;" ><h2>Komórka2-Maszk 1P<h2> </td>
+   </tr>
+   <tr>
+        <td style="background-color:#808000;" colspan="2" ><h2>Komórka3-Maszk 1P<h2></td><td style="background-color:#C0C0C0;" ><h2>Komórka4-Maszk 1P<h2> </td>
+   </tr>
+   
+</table>
+</body>
